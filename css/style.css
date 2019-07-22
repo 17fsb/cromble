@@ -1,0 +1,27 @@
+/*****************************************************************************/
+/* navigation bar*/
+/*****************************************************************************/
+
+header nav ul li {
+  color: black;
+  font-family: "PT Serif", serif;
+  font-size: 1.0rem;
+}
+
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li a {
+	display: inline;
+	margin: 0;
+	padding: 15px 20px;
+	color: black;
+
+	font-size: 1.125rem;
+	text-decoration: none;
+	/*transition: color 0.5s;
+	transition: background-color 0.5s; */
+
+}
