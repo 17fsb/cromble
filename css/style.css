@@ -1,27 +1,307 @@
-/*****************************************************************************/
-/* navigation bar*/
-/*****************************************************************************/
+/* @font-face {
+  src: url(fonts/abys.otf);
 
+  font-family: abys;
+} */
+@import url("https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+
+body {
+  text-align: center;
+  margin: 0px;
+}
+/* ========================== border =================*/
+#everything {
+
+  background: white;
+}
+/* ========================== navigation bar =================*/
+ul{
+  margin: 0;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#navbar {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 5px;
+}
+nav {
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
 header nav ul li {
   color: black;
   font-family: "PT Serif", serif;
   font-size: 1.0rem;
 }
-
-
-header nav ul {
+nav ul {
+  margin-top: 0px;
+  padding: 0;
   list-style-type: none;
 }
-
+nav li{
+  display: inline-block;
+  margin-left: 50px;
+  list-style: 25px;
+  position: relative;
+}
 header nav ul li a {
-	display: inline;
-	margin: 0;
-	padding: 15px 20px;
-	color: black;
-
-	font-size: 1.125rem;
+	display: block;
+	margin-top: 20px;
+	padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-family: abys;
+	font-size: 1.7rem;
+  color: rgba(165, 9, 55, 0.74);
 	text-decoration: none;
-	/*transition: color 0.5s;
-	transition: background-color 0.5s; */
+}
+nav a:hover {
+   color: rgba(142, 99, 6, 0.84);
+}
+/* ========================== logo =================*/
+#logo {
+  float: left;
+  width: 25%;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+/* ========================== first pic =================*/
+ #i {
+   margin-top: 0px;
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   border-radius: 0px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+}
+.overlay {
+  position: absolute;
+  bottom: 60px;
+  left: 190px;
+  right: 0;
 
+  background-color: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+  width: 50%;
+  height: 90%;
+  border-radius: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+.text {
+  color: rgba(165, 9, 55, 0.9);
+  font-size: 7rem;
+  text-align: center;
+  font-family: "abys";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* ========================== about =================*/
+#aboutdiv{
+  float: left;
+  width: 600px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+}
+#about {
+  color: black;
+  font-family: 'Darker Grotesque';
+  font-size: 1.75rem;
+}
+span {
+  color:rgba(165, 9, 55, 1);
+}
+/* ========================== checklist =================*/
+#morediv {
+  float: right;
+  width: 400px;
+  margin-right: 150px;
+  margin-top: 50px;
+  background: white;
+}
+#morediv:hover{
+  background: white;
+}
+.checklist {
+  font-family: 'Indie Flower';
+  font-size: 2.8rem;
+  color: rgba(165, 9, 55, 1);
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+/* ========================== for brewers =================*/
+#explain-brewersdiv, #explain-customerdiv{
+  clear:both;
+  float: left;
+  width: 600px;
+  height: 300px;
+  margin-right: 0px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+.checklist2 {
+  color: black;
+  font-family: 'Darker Grotesque';
+  font-size: 1.8rem;
+  margin-top: 0px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+ #forbrewers{
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Indie Flower';
+  font-size: 2.8rem;
+  color: rgba(165, 9, 55, 1);
+}
+/* ========================== Statistic =================*/
+#statisticdiv, #cromble-missiondiv{
+  float: right;
+  width: 350px;
+  height: auto;
+  margin-right: 50px;
+  margin-top: 0px;
+  border-radius: 100%;
+  background: rgba(195, 34, 48, 0.1);
+  padding: 80px;
+}
+#statistic, #cromble-mission{
+  font-family: 'Indie Flower';
+  font-size: 2.8rem;
+  color: rgba(142, 99, 6, 0.84);
+}
+/* ========================== customers =================*/
+#explain-customerdiv {
+  float: right;
+  margin-top: 0px;
+  width: 500px;
+  margin-right: 150px;
+  margin-left: 20px;
+}
+/* ========================== cromble mission =================*/
+ #cromble-missiondiv {
+   float: left;
+   background:rgba(142, 99, 6, 0.84);
+   margin-right: 0px;
+   margin-left: 100px;
+   margin-bottom: 50px;
+   width:300px;
+ }
+ #cromble-mission {
+   color:white;
+   font-size: 2rem;
+ }
+/* ========================== team =================*/
+/* #teamdiv{
+  clear: both;
+  top: 300px;
+  width: 800px;
+  display: inline-block;
+  background: rgba(217, 54, 97, 0.05);
+}
+#teamtext{
+  color: black;
+  font-family: 'Darker Grotesque';
+  font-size: 1.7rem;
+  margin-top: 0px;
+  padding: 50px;
+  margin-bottom: 0px;
+}
+#teampic{
+  width: 600px;
+  padding-top: 90px;
+} */
+/* ========================== contact form =================*/
+#contactcontainerdiv{
+  position: relative;
+  width:1000px;
+  margin-top: 60px;
+  display: inline-block;
+  height: 90%;
+  box-shadow: 0 0 20px 4px rgba(195, 147, 34, 0.81);
+}
+#cheers {
+  width:1000px;
+  height: 450px;
+  z-index: 1;
+}
+#contactafter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(37, 4, 4, 0.6);
+}
+h1 {
+  text-align: left;
+  font-family: 'Indie Flower';
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 60px;
+}
+.contact-form-text{
+  margin-left: 20px;
+  display: block;
+  width: 30%;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 0px;
+  background: rgba(0, 0, 0, 0.43);
+  padding: 10px;
+  outline: none;
+  color: white;
+  font-family: 'Darker Grotesque';
+  font-size: 1rem;
+}
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px rgba(220, 171, 56, 0.29);
+}
+textarea.contact-form-text{
+  resize:none;
+  height: 100px;
+}
+.contact-form-btn {
+  font-family: 'Indie Flower';
+  font-size: 16px;
+  float:left;
+  margin-left: 19%;
+  border: 0px;
+  background: rgba(220, 171, 56, 0.29);
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+.contact-form-btn:hover{
+  background: rgba(195, 147, 34, 0.81);
+}
+/* ========================== footer =================*/
+#footer{
+  width:100%;
+  height:100px;
+  margin-top: 50px;
+  background: rgba(117, 0, 31, 0.9);
 }

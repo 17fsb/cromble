@@ -1,24 +1,89 @@
 <!DOCTYPE html>
+
+<!-- https://www.hexcolortool.com/#f62862,0.06 -->
 <html>
   <head>
-  	<title> cromble landing page </title>
+  	<title> Cromble </title>
   	<meta charset="utf-8" />
   	<meta name="author" content="Cromble"/>
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="css/style.css">
-  	<link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
-
   <body>
+    <div id="everything">
   	<header>
-  		<nav>
-  			<ul>
-  				<li><a href="index.html">Home</a></li>
-  				<li><a href="about.html">About</a></li>
-  				<li><a href="contact.html">Contact</a></li>
-  			</ul>
-  		</nav>
+      <div id="navbar">
+        <a href="index.html"><img id="logo" src="img/cromble-logo-final-web.jpg" alt=""> </a>
+    		<nav>
+    			<ul>
+    				<li><a href="index.html">Home </a></li>
+            <li><a href="#aboutdiv">About</a></li>
+    				<li><a href="#cromble-missiondiv">Mission</a></li>
+    				<li><a href="#contactcontainerdiv">Contact</a></li>
+    			</ul>
+    		</nav>
+    </div>
   	</header>
+     <div class="container">
+       <img id="i" src="img/firstpic6.jpg" alt="">
+        <div class="overlay">
+            <div class="text"> We love delicious!</div>
+        </div>
+    </div>
+    <div id="aboutdiv">
+      <p id="about"> We are Cromble! We work magic with spent grain, which is the resulting product of the brewing process.
+        Spent grain, unlike grain, is actually better for us because it has 20% protein, 70% fibre, and less fats.
+        We use it to make <span> delicious and nutritious </span> granola products, so keep a lookout for our BrewBites! </p>
+        <img src="img/brewbite.jpg" alt="">
+    </div>
+    <div id="morediv">
+      <p class="checklist"> Sustainable </p>
+      <p class="checklist"> 70% Fibre </p>
+      <p class="checklist"> 20% Protein </p>
+    </div>
+    <div id="explain-brewersdiv">
+        <p id="forbrewers"> For Brewers We... </p>
+        <p class="checklist2"> ~ Pick up spent grain reliably, on a regular basis. </p>
+        <p class="checklist2"> ~ Can include the brewer's brand on our products. </p>
+        <p class="checklist2"> ~ Repurpose grain sustainably so breweries don’t have food waste on their conscience! </p>
+    </div>
+    <div id="statisticdiv">
+      <p id="statistic"> 85% of a brewer's unused product is spent grain! </p>
+    </div>
+    <div id="explain-customerdiv">
+        <p id="forbrewers"> For YOU We... </p>
+        <p class="checklist2"> ~ Provide a <span>delicious</span> snack. </p>
+        <p class="checklist2"> ~ Make you feel good about your health. </p>
+        <p class="checklist2"> ~ Make it conveninent to fill your tummy with a (did we mention,<span> delicious</span>) BrewBite! </p>
+    </div>
+    <div id="cromble-missiondiv">
+      <p id="cromble-mission"> "Our mission is to rescue 100% of spent grain and use it to
+      its best potential" - the Cromble team </p>
+    </div>
+    <!-- <div id="teamdiv">
+      <img id="teampic" src="img/team.jpg" alt="">
+      <p id="teamtext"> The five of us founded Cromble. If you will see us around Queen's University, say hi!
+      We would love to hear your feedback and chat about delicious & nutritious foods, sustainability, saving the world, etc.
+      <p>
+    </div> -->
+
+    <div id="contactcontainerdiv">
+      <img id="cheers" src="img/cheers2.jpg" alt="">
+        <div id="contactafter">
+          <h1> Chat with us! </h1>
+          <form class="contact-form" action="contactformhandler.php" method="post">
+              <input type="text" class="contact-form-text" placeholder="Your name">
+              <input type="email" class="contact-form-text" placeholder="Your email">
+              <input type="text" class="contact-form-text" placeholder="Your phone">
+              <textarea class="contact-form-text" placeholder="Your message"></textarea>
+              <input type="submit" class="contact-form-btn" value="Send">
+          </form>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+  </div> <!-- end of div #everything -->
 
   </body>
 

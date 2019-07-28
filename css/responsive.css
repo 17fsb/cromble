@@ -1,0 +1,276 @@
+
+/* ========================== Phones =================*/
+@media screen and (max-width: 400px) {
+  /* ========================== navigation =================*/
+  header {
+    height: 50px;
+  }
+  #logo{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 16px;
+    width:30%;
+  }
+  nav ul li {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul li a {
+    padding: 0px!important;
+    font-size: 1rem!important;
+  }
+  nav {
+    margin-top: 0px;
+  }
+  /* ========================== overlay =================*/
+  .text {
+    font-size: 2rem;
+  }
+  .overlay {
+    top:0px;
+    left: 60px;
+  }
+  /* ========================== about =================*/
+  #aboutdiv {
+    width:100%;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  #about {
+    font-size: 1.3rem;
+  }
+  #aboutdiv img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #morediv {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    background: white;
+  }
+  .checklist {
+    font-size: 1.6rem;
+    color: rgba(142, 99, 6, 1);
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  /* ========================== brewers =================*/
+  #explain-brewersdiv {
+    margin-left: 0px;
+    width: 100%;
+    /* background: rgba(195, 34, 48, 0.06); */
+    height: auto;
+    padding-bottom: 20px;
+  }
+  #forbrewers, .checklist2{
+    text-align: center;
+  }
+  .checklist2 {
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #forbrewers {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-size: 1.5rem;
+  }
+  /* ========================== statistic =================*/
+  #statisticdiv{
+    width: 50%;
+    padding: 10px;
+  }
+  #statistic {
+    font-size: 1.3rem;
+  }
+  /* ========================== customer =================*/
+  #explain-customerdiv{
+    margin-right: 0px;
+    width:100%;
+    height: auto;
+  }
+  .checklist2{
+    text-align: left;
+  }
+  /* ========================== mission =================*/
+  #cromble-missiondiv{
+    width:75%;
+    padding: 30px;
+    margin-left: 10px;
+    margin-top: 10%;
+    margin-bottom: 0px;
+  }
+  #cromble-mission{
+    font-size: 1.5rem;
+  }
+  /* ========================== contact =================*/
+  #contactcontainerdiv{
+    max-width: 90%;
+    overflow: hidden;
+    text-indent: -300px;
+    box-shadow: none;
+  }
+  .contact-form-text {
+    width:80%;
+  }
+  .contact-form-btn {
+    margin-left: 30%;
+  }
+  h1 {
+    text-indent: 0px;
+  }
+  #cheers{
+    max-width: initial;
+  }
+}
+/* ========================== Screen size 1260px =================*/
+@media screen and (max-width: 1260px) {
+  #morediv{
+    margin-right: 90px;
+  }
+  #explain-customerdiv{
+    margin-right: 90px;
+  }
+  #statisticdiv{
+    width:250px;
+  }
+  #statistic{
+    font-size: 2rem;
+  }
+}
+/* ========================== Screen size 1190px =================*/
+@media screen and (max-width: 1190px) {
+  #morediv{
+    width: 220px;
+    margin-right: 50px;
+  }
+  #explain-brewersdiv{
+    width:50%;
+  }
+  .checklist{
+    font-size: 2.5rem;
+  }
+  #statisticdiv{
+    width:200px;
+    padding: 50px;
+  }
+  #statistic, #cromble-mission{
+    font-size: 1.5rem;
+  }
+  #forbrewers, .checklist2 {
+    font-size: 1.8rem;
+  }
+  #cromble-missiondiv {
+    width: 250px;
+    padding: 50px;
+  }
+  #explain-customerdiv{
+    margin-right: 50px;
+  }
+  header nav ul li a {
+    padding-top: 20px;
+    margin-top: 0px;
+  }
+  nav li{
+    margin-left: 10px;
+  }
+  .text{
+    font-size: 5rem;
+  }
+  #logo{
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+  .overlay{
+    left:150px;
+  }
+}
+/* ========================== Screen size 1020px =================*/
+@media screen and (max-width: 1020px) {
+
+  .checklist2{
+    font-size: 1.5rem;
+  }
+  #aboutdiv{
+    margin-left: 50px;
+    width: 60%;
+  }
+  #aboutdiv img {
+    width:100%;
+  }
+  .checklist{
+    font-size: 2rem;
+  }
+  #explain-brewersdiv{
+    margin-left: 50px;
+  }
+  #explain-customerdiv{
+    margin-right: 10%;
+    width: 40%;
+  }
+  #cromble-missiondiv{
+    width:200px;
+    padding: 30px;
+    margin-left: 10%;
+  }
+  #cromble-mission{
+    font-size: 1rem;
+  }
+  #logo{
+    margin-left: 5%;
+  }
+}
+/* ========================== screen size 800px =================*/
+@media screen and (max-width: 800px) {
+  header nav ul li a{
+    font-size: 1.4rem;
+  }
+  .text{
+    font-size: 3rem;
+  }
+  .overlay{
+    top:5%;
+    left: 15%;
+  }
+  #aboutdiv{
+    margin-left: 20%;
+  }
+  #morediv{
+    margin-right: 35%;
+  }
+  #explain-brewersdiv, #explain-customerdiv{
+    width:80%;
+  }
+  #statisticdiv{
+    margin-right: 20%;
+    width: 35%;
+  }
+  #statistic, #cromble-mission {
+    font-size: 2rem;
+  }
+  #cromble-missiondiv{
+    width: 50%;
+  }
+}
+/* ========================== screen size 500px =================*/
+@media screen and (max-width: 500px) {
+  header nav ul li a{
+    font-size: 1rem;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  #statisticdiv{
+    width: 50%;
+  }
+  #cromble-missiondiv{
+    width: 75%;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
