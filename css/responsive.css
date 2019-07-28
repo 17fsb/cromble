@@ -263,21 +263,67 @@
     font-size: 1rem;
     margin-left: 0px;
     padding-left: 0px;
+    padding-right: 0px;
+  }
+  nav {
+    margin-top: 0px;
+  }
+  #logo{
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  #aboutdiv{
+    margin-top: 10px;
+  }
+  #about{
+    font-size: 1rem;
+  }
+  #morediv{
+    margin-top: 0px;
+    margin-right: 25%;
+  }
+  .checklist{
+    font-size: 1.5rem;
+  }
+  #forbrewers, .checklist2{
+    font-size: 1.1rem;
+    margin-bottom: 0px;
   }
   #statisticdiv{
-    width: 50%;
+    width: 30%;
+    padding: 20px;
+  }
+  #explain-brewersdiv{
+    height: auto;
+  }
+  #statistic{
+    font-size: 1rem;
+  }
+  #explain-customerdiv{
+    height:auto;
   }
   #cromble-missiondiv{
-    width: 75%;
+    width: 40%;
+    margin-bottom: 0px;
   }
-  p {
-    font-size: 1.5rem;
+  #cromble-mission {
+    font-size: 1rem;
   }
   #contactcontainerdiv{
     max-width: 90%;
     overflow: hidden;
     text-indent: -300px;
-    width:100%;
+    box-shadow: none;
+  }
+  .contact-form-text {
+    width:80%;
+  }
+  .contact-form-btn {
+    margin-left: 30%;
+  }
+  h1 {
+    text-indent: 0px;
   }
   #cheers{
     max-width: initial;
