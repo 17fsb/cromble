@@ -294,9 +294,9 @@ textarea.contact-form-text{
   padding: 10px 50px;
   border-radius: 20px;
 }
-.contact-form-btn:hover{
+/* .contact-form-btn:hover{
   background: rgba(195, 147, 34, 0.81);
-}
+} */
 /* ========================== footer =================*/
 #footer{
   width:100%;
