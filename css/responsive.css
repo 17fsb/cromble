@@ -258,7 +258,7 @@
   }
 }
 /* ========================== screen size 500px =================*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   header nav ul li a{
     font-size: 1rem;
     margin-left: 0px;
@@ -272,5 +272,14 @@
   }
   p {
     font-size: 1.5rem;
+  }
+  #contactcontainerdiv{
+    max-width: 90%;
+    overflow: hidden;
+    text-indent: -300px;
+    width:100%;
+  }
+  #cheers{
+    max-width: initial;
   }
 }
