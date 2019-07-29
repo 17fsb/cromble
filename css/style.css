@@ -290,10 +290,15 @@ textarea.contact-form-text{
   margin-left: 19%;
   border: none;
   -webkit-appearance:none;
-  background-color: rgba(165, 9, 55, 0.74);
+  background-color: rgba(165, 9, 55, 1);
   color:white;
   padding: 10px 50px;
   border-radius: 20px;
+}
+input{
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance: none;
 }
 /* .contact-form-btn:hover{
   background: rgba(195, 147, 34, 0.81);
