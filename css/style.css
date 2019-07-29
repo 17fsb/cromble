@@ -288,9 +288,9 @@ textarea.contact-form-text{
   font-size: 16px;
   float:left;
   margin-left: 19%;
-  border: 0px;
-  background: rgba(220, 171, 56, 0.29);
-  color: white;
+  border: none;
+  background-color: rgba(165, 9, 55, 0.74);
+  color:white;
   padding: 10px 50px;
   border-radius: 20px;
 }
