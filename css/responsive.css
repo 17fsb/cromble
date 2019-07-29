@@ -127,6 +127,11 @@
   #cheers{
     max-width: initial;
   }
+  input{
+      -webkit-appearance:none;
+      -moz-appearance: none;
+      appearance: none;
+  }
 }
 /* ========================== Screen size 1260px =================*/
 @media screen and (max-width: 1260px) {
