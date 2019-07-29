@@ -1,5 +1,14 @@
 
 /* ========================== Phones =================*/
+@media screen and (max-width: 350px) {
+  nav ul li{
+    font-size: 0.1rem!important;
+    margin-left: 0px!important;
+    margin-bottom: 0px!important;
+    margin-top: 15px;
+  }
+
+}
 @media screen and (max-width: 400px) {
   /* ========================== navigation =================*/
   header {
@@ -128,9 +137,9 @@
     max-width: initial;
   }
   input{
-      -webkit-appearance:none;
-      -moz-appearance: none;
-      appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance: none;
   }
 }
 /* ========================== Screen size 1260px =================*/
