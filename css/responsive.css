@@ -320,7 +320,13 @@
     width:80%;
   }
   .contact-form-btn {
+    -webkit-appearance:none;
     margin-left: 50%;
+  }
+  input{
+      -webkit-appearance:none;
+      -moz-appearance: none;
+      appearance: none;
   }
   h1 {
     text-indent: 0px;
